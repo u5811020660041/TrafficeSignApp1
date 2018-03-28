@@ -9,9 +9,11 @@
         android:id="@+id/imageView"
         android:layout_width="@dimen/my_icon"
         android:layout_height="@dimen/my_icon"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toStartOf="@+id/linearLayout"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/traffic_01" />
 
     <LinearLayout
