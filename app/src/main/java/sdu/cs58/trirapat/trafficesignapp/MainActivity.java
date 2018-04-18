@@ -1,7 +1,9 @@
 package sdu.cs58.trirapat.trafficesignapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(myAdapter);
 
     }//end onCreate Method
+
+    public void clickAboutMe(View view) {
+        Intent aboutmeIntent = new Intent(MainActivity.this, AboutMeActivity.class);
+        startActivity(aboutmeIntent);
+    }
 }//end class

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ป้ายจราจรน่ารู้</string>
+    <string name="my_name">นางสาวตรีรพัชร ศาลาศรัย</string>
+    <string name="my_major">หลักสูตรวิทยาการคอมพิวเตอร์</string>
+    <string name="my_university">มหาวิทยาลัยสวนดุสิต</string>
+    <string name="my_mobile">เบอร์ติดต่อ:092-0920851</string>
+    <string name="my_facebook">Facebook: https://www.facebook.com/MYIELODT</string>
 </resources>
